@@ -1,0 +1,1 @@
+<footer>MBO Utrecht 2018 - Alle rechten voorbehouden</footer>
