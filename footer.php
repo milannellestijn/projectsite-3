@@ -1,1 +1,1 @@
-<footer>MBO Utrecht 2018 - Alle rechten voorbehouden</footer>
+<footer>MBO Utrecht 2019 - Alle rechten voorbehouden</footer>
