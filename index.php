@@ -35,22 +35,22 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-         <img src="img/brein.jpg" width="140" height="140">
+         <img src="img/game.png" width="155" height="145">
         <h2>Gratis zelftest</h2>
         <p>De geheugentraining is een gratis zelftest die laten zien hoe goed jij bent in het onthouden van dingen.</p>
         <p><a class="btn btn-secondary" href="#" role="button">Doe de test »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          <img src="img/more.png" width="150" height="150">
+        <h2>Over</h2>
+        <p>Deze website is bedoeld om mensen informatie te geven over het geheugen en hoe dit in elkaar zit. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">Meer lezen »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+         <img src="img/contact.png" width="135" height="135">
+        <h2>Contact</h2>
+        <p>Heeft U niet alles kunnen vinden waar u naar zocht, neem dan contact met ons op voor meer informatie!</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Contact opnemen »</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
   </div><!-- /.container -->
