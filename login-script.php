@@ -37,21 +37,24 @@
 
         switch ($record["userrole"]) {
         case 'administrator':
-          header("Refresh:0");
-          echo '<a href="./index.php?content=administrator_home">';
+          //header("Refresh:0");
+          echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=administrator_home">';
           break;
         case 'customer':
           //header("Location: ./index.php?content=customer_home");
-          echo '<a href=".index.php?content=customer_home">';
+          echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=customer_home">';
           break;
         case 'moderator':
           //header("Location: ./index.php?content=moderator_home");
+          echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=moderator_home">';
           break;
         case 'root':
           //header("Location: ./index.php?content=root_home");
+          echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=root_home">';
           break;
         default:
           //header("Location: ./index.php?content=home");
+          echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=home">';
           break;
         }
       } else {
@@ -60,6 +63,7 @@
             De door u opgegeven e-mailadres en wachtwoord combinatie is niet bekend. Probeer het opnieuw
           </div>';
         //header("Refresh: 4; url=./index.php?content=loginform");
+        echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=loginform">';
       }
     } else {
     // Als het emailadres niet goed is stuur door naar loginform
@@ -67,6 +71,7 @@
         Het door u opgegeven e-mailadres is niet bekend. Probeer het opnieuw
       </div>';
     //header("Refresh: 4; url=./index.php?content=loginform");
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=loginform">';
     }
 
 
@@ -75,7 +80,8 @@
     echo '<div class="alert alert-danger" role="alert">
             U heeft het e-mail of wachtwoord veld niet ingevuld, probeer het opnieuw
           </div>';
-    header("Refresh: 3; url=./index.php?content=loginform&email=$email");
+    //header("Refresh: 3; url=./index.php?content=loginform&email=$email");
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=loginform">';
   }
 
 ?>

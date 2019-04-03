@@ -70,11 +70,13 @@
             U heeft een email gekregen met een activatielink. Klik hierop om het registreren te voltooien
           </div>';
     //header("Refresh: 4; url=./index.php?content=registerform");
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=registerform">';
   } else {
     echo '<div class="alert alert-danger" role="alert">
             Er is iets mis gegaan met de registratie, probeer het opnieuw.
           </div>';
     //header("Refresh: 4; url=./index.php?content=registerform");
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=registerfrom">';
   }
 
 }

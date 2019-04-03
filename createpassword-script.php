@@ -31,19 +31,23 @@
         $email = $record["email"];
 
         echo '<div class="alert alert-success" role="alert">Uw wachtwoord is veranderd. U wordt doorgestuurd naar de inlogpagina waar u kunt inloggen.</div>';
-        //header("Refresh: 4; url=./index.php?content=loginform&email=$email");
+        //header("Refresh: 4; url=./index.php?content=loginform");
+        echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=loginform">';
       } else {
         echo '<div class="alert alert-danger" role="alert">Er is een fout opgetreden. Probeer het nogmaals.</div>';
         //header("Refresh: 4; url=./index.php?content=home");
+        echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=home">';
       }
     } else {
       echo '<div class="alert alert-danger" role="alert">U heeft een van beide wachtwoordvelden niet ingevuld. Probeer het nogmaals.</div>';
-      //header("Refresh: 4; url=./index.php?content=createpassword&id=$id");
+      //header("Refresh: 4; url=./index.php?content=createpassword");
+      echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=createpassword">';
     }
   } else {
     //  Als de wachtwoorden niet gelijk zijn...
     echo '<div class="alert alert-danger" role="alert">De door u ingevulde wachtwoorden zijn niet gelijk, Probeer het nogmaals</div>';
-    //header("Refresh: 4; url=./index.php?content=createpassword&id=$id");
+    //header("Refresh: 4; url=./index.php?content=createpassword");
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=createpassword">';
   }
 
 
