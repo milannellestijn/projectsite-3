@@ -13,6 +13,13 @@
   <!-- Eigen CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <title>Hello, world!</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/FAVICON/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/FAVICON/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/FAVICON/favicon-16x16.png">
+<link rel="manifest" href="/FAVICON/site.webmanifest">
+<link rel="mask-icon" href="/FAVICON/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -24,6 +31,11 @@
     <div class="row">
       <div class="col-12">
         <?php include("./navbar.php"); ?>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <?php include("./link.php"); ?>
       </div>
     </div>
     <div class="row">
