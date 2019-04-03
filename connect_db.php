@@ -3,7 +3,7 @@
   define("SERVERNAME", "localhost");
   define("USERNAME", "root");
   define("PASSWORD", "Doremalen1");
-  define("DBNAME", "am1b-loginregistration-2018");
+  define("DBNAME", "fjxlmmvf_am1b-loginregistration-2018");
 
   // var_dump($_POST);
   // Hier maken we een verbinding met de mysql-server en database

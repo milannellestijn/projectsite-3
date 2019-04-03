@@ -11,7 +11,12 @@
   <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
-      <a class="nav-link" href="./index.php?content=registerform">Sign in</a>
+      <a class="nav-link" href="./index.php?content=loginform">Sign in</a>
+    </li>
+    </ul> 
+    <ul class="navbar-nav px-3">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="./index.php?content=registerform">Sign up</a>
     </li>
   </ul>
 </nav>
