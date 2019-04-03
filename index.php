@@ -28,11 +28,6 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <?php include("./link.php"); ?>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
         <section class="content">
           <?php include("./navigation.php"); ?>
         </section>

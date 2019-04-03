@@ -17,7 +17,7 @@
     echo '<div class="alert alert-info" role="alert">
             Uw emailadres bestaat al. Kies een ander emailadres...
           </div>';
-          header("Refresh: 4; url=./index.php?content=registerform");
+          //header("Refresh: 4; url=./index.php?content=registerform");
   } else {
 
   // We maken onze insert-query
@@ -51,7 +51,7 @@
                 <h1>Beste klant,</h1>
                   <p>Bedankt voor het registreren op. Door op de onderstaande activatielink te klikken wordt het registratieproces voltooid.</p>
                   <p>
-                    <a href="http://localhost/inlogregistratiesysteem-master/index.php?content=createpassword&id=' . $id . '">activeer uw account</a>
+                    <a href="http://localhost/projectsite-3/index.php?content=createpassword&id=' . $id . '">activeer uw account</a>
                   </p>
                   <p> Met vriendelijk groet,</p>
                   <p>Uw administrator</p>
@@ -69,12 +69,12 @@
     echo '<div class="alert alert-success" role="alert">
             U heeft een email gekregen met een activatielink. Klik hierop om het registreren te voltooien
           </div>';
-    header("Refresh: 4; url=./index.php?content=registerform");
+    //header("Refresh: 4; url=./index.php?content=registerform");
   } else {
     echo '<div class="alert alert-danger" role="alert">
             Er is iets mis gegaan met de registratie, probeer het opnieuw.
           </div>';
-    header("Refresh: 4; url=./index.php?content=registerform");
+    //header("Refresh: 4; url=./index.php?content=registerform");
   }
 
 }
