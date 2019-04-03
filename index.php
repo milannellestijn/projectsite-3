@@ -19,7 +19,7 @@
   <main class="container">
     <div class="row">
       <div class="col-12">
-        <?php include("./banner.php"); ?>
+        <?php include("./navbar.php"); ?>
       </div>
     </div>
     <div class="row">
