@@ -11,7 +11,7 @@
     </form>
   </div>
   <div class="col-6">
-    <img src="./img/pasen.jpg" alt="paaseiland">
+  <img src="./img/Logo.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="70%">
   </div>
 </div>
 

@@ -17,6 +17,6 @@
     </form>
   </div>
   <div class="col-6">
-    <img src="./img/pasen.jpg" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="70%">
+    <img src="./img/Logo.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image" width="70%">
   </div>
 </div>
