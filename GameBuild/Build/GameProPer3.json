@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "ProjectPer3",
-"dataUrl": "Nieuwe map.data.unityweb",
-"wasmCodeUrl": "Nieuwe map.wasm.code.unityweb",
-"wasmFrameworkUrl": "Nieuwe map.wasm.framework.unityweb",
+"dataUrl": "GameProPer3.data.unityweb",
+"wasmCodeUrl": "GameProPer3.wasm.code.unityweb",
+"wasmFrameworkUrl": "GameProPer3.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
