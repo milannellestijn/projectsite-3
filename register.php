@@ -51,7 +51,7 @@
                 <h1>Beste klant,</h1>
                   <p>Bedankt voor het registreren op. Door op de onderstaande activatielink te klikken wordt het registratieproces voltooid.</p>
                   <p>
-                    <a href="http://localhost/projectsite-3/index.php?content=createpassword&id=' . $id . '">activeer uw account</a>
+                    <a href="http://project3.com/index.php?content=createpassword&id=' . $id . '">activeer uw account</a>
                   </p>
                   <p> Met vriendelijk groet,</p>
                   <p>Uw administrator</p>
@@ -76,7 +76,7 @@
             Er is iets mis gegaan met de registratie, probeer het opnieuw.
           </div>';
     //header("Refresh: 4; url=./index.php?content=registerform");
-    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=registerfrom">';
+    echo '<meta http-equiv="Refresh" content="0; url=./index.php?content=registerform">';
   }
 
 }

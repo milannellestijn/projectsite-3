@@ -2,7 +2,7 @@
   // Dit zijn constante waarden nodig voor het inloggen in de database
   define("SERVERNAME", "localhost");
   define("USERNAME", "root");
-  define("PASSWORD", "Doremalen1");
+  define("PASSWORD", "");
   define("DBNAME", "am1b-loginregistration-2018");
 
   // var_dump($_POST);
