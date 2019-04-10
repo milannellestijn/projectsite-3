@@ -17,7 +17,7 @@
     <script src="./GameBuild/TemplateData/UnityProgress.js"></script>
     <script src="./GameBuild/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "./GameBuild/Build/Nieuwe map.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "./GameBuild/Build/GameProPer3.json", {onProgress: UnityProgress});
     </script>
     <title>Home</title>
   </head>
